@@ -340,7 +340,7 @@ Begin Window wMain
       TabPanelIndex   =   0
       TabStop         =   True
       TextAlignment   =   "0"
-      TextColor       =   &c00000000
+      TextColor       =   &c0080C000
       Tooltip         =   ""
       Top             =   399
       Transparent     =   False
@@ -417,6 +417,13 @@ End
 		Sub Action()
 		  wMain3.Show
 		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events Label5
+	#tag Event
+		Function MouseDown(X As Integer, Y As Integer) As Boolean
+		  wMain4.Show
+		End Function
 	#tag EndEvent
 #tag EndEvents
 #tag Events DeleteBtn
